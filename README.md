@@ -1,5 +1,7 @@
 # 阿格尼痛苦脸 · 实时人脸替换特效
 
+![实时人脸替换效果](assets/face-swap-demo.gif)
+
 一个基于 OpenCV 与 MediaPipe Face Landmarker 的课程实践项目：将漫画线稿或其他人脸素材实时贴合到摄像头中的人脸上，并对比全局仿射与分片非刚性变形两种实现。
 
 ## 效果与实现
@@ -18,7 +20,9 @@
 ├── app/
 │   ├── basic.py                 # v1：全局仿射
 │   └── nonrigid.py              # v2：Delaunay + 分片仿射
-├── assets/masks/                # mask 素材与 6 点标注数据
+├── assets/
+│   ├── face-swap-demo.gif       # README 顶部效果演示
+│   └── masks/                   # mask 素材与 6 点标注数据
 ├── tools/
 │   ├── annotate_mask.py         # 6 点可视化标注工具
 │   └── validate_landmarks.py    # 468 点检测稳定性验证
