@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# 下载后放在仓库根目录；模型可按 README 中的链接重新获取
+face_landmarker.task
+
+# 程序运行时生成
+.cache/
+outputs/
+
